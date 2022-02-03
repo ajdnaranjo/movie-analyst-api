@@ -49,11 +49,12 @@ function getPublications(callback) {
 
 
 //Testing endpoint
+/*
 app.get('/', function(req, res){
   var response = [{response : 'hello'}, {code : '200'}]
   res.json(response);
 })
-
+*/
 
 app.get('/movies', function (req, res) {
   getMovies(function (err, result) {
